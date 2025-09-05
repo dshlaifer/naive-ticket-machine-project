@@ -37,18 +37,21 @@ public class TicketMachine
      */
     public int getPrice()
     {
-        return price;
+         return price;
     }
 
     /**
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int getAmount()
+    public int getbalance()
     {
         return balance;
     }
-
+    public int getTotal()
+    {
+        return total;
+    }
     /**
      * Receive an amount of money from a customer.
      */

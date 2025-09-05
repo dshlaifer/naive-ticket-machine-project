@@ -100,4 +100,14 @@ the names everything else looks the same.
 would be "what is the balance"
 
 25. When I changed the name to getAmount instead of getBalance
-I dont need to change the body method, but when I call for it it shows 
+I dont need to change the body method, but when I call for it shows get Amount.
+
+27. After removing the return statement it says that its not a statement.
+
+28. The Comparison between the getPrice and printTicket are, in getPrice int is used
+and in printTicket void is used.
+
+29. insertMoney and printTicket doesnt have a return statement because they use public void
+which is a return type.
+
+31.
