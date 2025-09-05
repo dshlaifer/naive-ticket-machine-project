@@ -111,3 +111,65 @@ and in printTicket void is used.
 which is a return type.
 
 31.
+public void increaseScore(int points)
+{
+    Score = score + points;
+}
+
+32.
+public void addCredits(int additionalPoints)
+{
+    credits += additionalPoints;
+}
+
+this is a mutator Student example
+
+Student s1 = new student(string name):
+system.out.prinln(s1.getCredits());
+s1.addCredits(10);
+system.out.println(s1.getCredits());
+
+33.
+public void discount(int amount)
+{
+    price = price - amount;
+}
+34.
+public void setAge(int currentAge)
+{
+    age = currentage
+}
+
+35.
+public void setAlive(boolean aliveStatus)
+{
+    alive = aliveStatus;
+}
+
+36.
+After modifying the TicketMachine after changing the name
+of the parameter the results doesnt show any values I put.
+
+37. The statement would say "My cat has green eyes"
+
+39. It would print # price cents.
+
+40. it would print the same thing # price cents.
+
+42. both machines show the same output I think it might be because the method does not have
+parameter or values.
+
+45. for the two costructors it wasnt able to work this was my code
+
+public class TicketMachine
+{
+    private int price;
+    
+    
+    public TicketMachine (int ticket price)
+    {
+        price = ticketPrice;
+    }
+}
+
+46. I dont know.

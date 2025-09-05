@@ -24,10 +24,12 @@ public class TicketMachine
      * Create a machine that issues tickets of the given price.
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
+     * question 44 this effect makes it so when you get price it would say 1000
+     * no matter what.
      */
     public TicketMachine(int cost)
     {
-        price = cost;
+        price = 1000;
         balance = 0;
         total = 0;
     }
@@ -39,7 +41,13 @@ public class TicketMachine
     {
          return price;
     }
-
+    public void prompt()
+    { 
+        System.out.println("please insert the correct amount of money");
+    } 
+    /**this is question 38 ^
+    
+    
     /**
      * Return the amount of money already inserted for the
      * next ticket.
@@ -48,6 +56,11 @@ public class TicketMachine
     {
         return balance;
     }
+    public void showPrice()
+    {
+        System.out.println("The price of a ticket is 50 cents");
+    }
+    /**this is question 41 ^
     public int getTotal()
     {
         return total;
@@ -64,6 +77,7 @@ public class TicketMachine
      * Print a ticket.
      * Update the total collected and
      * reduce the balance to zero.
+     * question 43 %d = integer and %n is new line
      */
     public void printTicket()
     {
@@ -71,7 +85,7 @@ public class TicketMachine
         System.out.println("##################");
         System.out.println("# The BlueJ Line");
         System.out.println("# Ticket");
-        System.out.println("# " + price + " cents.");
+        System.out.printf("# %d cents.%n", price); 
         System.out.println("##################");
         System.out.println();
 
